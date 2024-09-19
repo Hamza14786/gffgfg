@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.header{
+position: relative;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column; 
+
+}
+
+.h-bottom{
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-top: 10px;
+}
+
+.top-btn{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    } 
+
+ .icons{
+    gap: 15px;
+} 
+
+.btn1,
+.btn2{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+    padding: 5px 3rem;
+}
+.btn1:hover,
+.btn2:hover{
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+.btn1:focus,
+.btn2:focus{
+    background: #2c2c2c;
+    color: #fff;
+}
+
+ .container a .buttons{
+    
+        font-size: 19px;
+        letter-spacing: .21rem;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px 0px;
+        color: #fff;
+}
+
+.header .btn-1{
+background-color: #000;
+color: #fff;
+}
+
+ .about img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+gap: 50px;
+}
+
+.category{
+    width: 730px;
+    height: 600px;
+}
+
+.category a img{
+    border: none;
+}
+
+.category img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+}
+
+/* New wear */
+.new-wear img{
+    width: 363.8px;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+ }
+
+ 
+.btn-cart{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    margin-left: 26px;
+    }
+
+    .wear-asimjofa{
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+ .box-overlay{
+    width: 365.8px !important;
+    height: auto;
+    transition: transform 500ms ease;
+    overflow:hidden;
+}
+.box-overlay img{
+    max-width: 100%;
+    object-fit:cover;
+    transition: all ease 1s;
+}
+.box-overlay:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/* Mens wear */
+.mens-wear{
+    margin-top: 250px;
+     }
+    
+     .mens-wear img{
+        width: 364.9px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+     }
+
+    /* Fabric */
+    .Fabric{
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+     .Fabric img{
+        width: 369.8px;
+        height: 100%;
+     }
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin-right: 10px;
+    font-size: 22px;
+    letter-spacing: 1rem;
+}
+
+.footer .Whatsapp a{
+color: rgb(61, 187, 45);
+font-size: 17px;
+font-weight: bold;
+letter-spacing: 0.8px;
+}
+
+.footer .Whatsapp a i{
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.card-logo{
+    padding-inline-start: 448px;
+}
